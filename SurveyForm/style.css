@@ -1,0 +1,71 @@
+*{
+    font-size: 15px;
+  }
+  
+  .container{
+  
+    border: 1px solid #0b0b0b;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  label{
+    margin-bottom: 0;
+    margin-top: 28px;
+ 
+  }
+  
+  .table{
+    text-align: center;
+  }
+  
+
+  
+.firstRow span{
+  color: grey;
+  font-size: smaller;
+  padding-left: 5px;
+}
+.lastName{
+  margin-top: 28.27px;
+}
+
+#lname,#fname{
+  width: 200px;
+}
+
+#email{
+  max-width: 432px ;
+  width: 100%;
+}
+  table,td,tr,th{
+    border: 0;
+  }
+  
+  .radio{
+    text-align: left;
+  }
+  
+  .star{
+    color: grey;
+    padding: 10px 0;
+  
+  }
+  
+  @media screen and (max-width:500px) {
+    *{
+      font-size: 13px;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width:400px) {
+    .lastName{
+      margin: 0;
+    }
+    #email{
+      max-width: 300px ;
+      width: 100%;
+    }
+  }
